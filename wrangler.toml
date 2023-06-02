@@ -1,0 +1,6 @@
+name = "workers-rs-sockets-test"
+main = "build/worker/shim.mjs"
+compatibility_date = "2023-03-22"
+
+[build]
+command = "cargo install -q worker-build --git https://github.com/cloudflare/workers-rs --branch main && worker-build --release"
