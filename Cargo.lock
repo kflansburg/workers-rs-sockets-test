@@ -704,7 +704,8 @@ checksum = "1a515f5799fe4961cb532f983ce2b23082366b898e52ffbce459c86f67c8378a"
 
 [[package]]
 name = "worker"
-version = "0.0.16"
+version = "0.0.17"
+source = "git+https://github.com/cloudflare/workers-rs?branch=main#97fa7ee3bc460f7594d757f74fba76b894f1d2ce"
 dependencies = [
  "async-trait",
  "chrono",
@@ -718,7 +719,6 @@ dependencies = [
  "serde",
  "serde-wasm-bindgen",
  "serde_json",
- "tokio",
  "url",
  "wasm-bindgen",
  "wasm-bindgen-futures",
@@ -746,7 +746,8 @@ dependencies = [
 
 [[package]]
 name = "worker-macros"
-version = "0.0.8"
+version = "0.0.9"
+source = "git+https://github.com/cloudflare/workers-rs?branch=main#97fa7ee3bc460f7594d757f74fba76b894f1d2ce"
 dependencies = [
  "async-trait",
  "proc-macro2",
@@ -760,7 +761,8 @@ dependencies = [
 
 [[package]]
 name = "worker-sys"
-version = "0.0.8"
+version = "0.0.9"
+source = "git+https://github.com/cloudflare/workers-rs?branch=main#97fa7ee3bc460f7594d757f74fba76b894f1d2ce"
 dependencies = [
  "cfg-if",
  "js-sys",

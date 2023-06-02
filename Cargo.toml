@@ -11,8 +11,7 @@ wasm-opt = false
 crate-type = ["cdylib"]
 
 [dependencies]
-#worker = { git="https://github.com/cloudflare/workers-rs", branch="main" }
-worker = { path = "../workers-rs/worker" }
+worker = { git="https://github.com/cloudflare/workers-rs", branch="main" }
 tokio = {version = "1.0", default-features=false, features=['io-util', 'macros']}
 wasm-bindgen-futures = "0.4"
 js-sys = "0.3"
